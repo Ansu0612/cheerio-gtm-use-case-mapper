@@ -36,7 +36,7 @@ Started with **50 companies across 4 verticals**.
 |---|---:|---:|---:|---:|
 | D2C / E-commerce | 15 | 0 | 15 | 3 |
 | BFSI | 15 | 6 | 9 | 3 |
-| Real Estate | 10 | 3 | 7 | 3 |
+| Real Estate | 10 | 0 | 10 | 3 |
 | Healthcare | 10 | 3 | 7 | 3 |
 | **Total** | **50** | **12** | **38** | **12** |
 
