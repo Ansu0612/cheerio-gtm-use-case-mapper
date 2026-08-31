@@ -2,73 +2,110 @@
 
 ## Objective
 
-Understand what characteristics make a company a potential fit for Cheerio AI before building an automated scoring system.
+Identify potential Cheerio AI workflow opportunities using an evidence-first GTM research process.
 
-## Step 1 — Company Discovery
+The goal is not to automatically define the ICP from enrichment data, but to understand customer journeys, existing capabilities, and potential workflow gaps.
 
-Created a prospect universe across:
+## 1. Company Discovery
 
-- D2C / E-commerce
-- BFSI
-- Real Estate
-- Healthcare
+Used Clay to build an initial prospect universe across four verticals:
 
-Clay was used to discover companies based on industry, company size, geography, and business-description signals.
+- D2C / E-commerce — 15
+- BFSI — 15
+- Real Estate — 10
+- Healthcare — 10
 
-## Step 2 — Evidence Collection
+**Initial universe: 50 companies**
 
-For a small representative sample, public company information was researched.
+## 2. Data Validation
 
-Two initial signals were tested:
+The initial Clay results contained geographic mismatches.
 
-### WhatsApp Channel Usage
+Companies whose returned country/location did not match the India-focused research scope were removed.
 
-What role does WhatsApp play in the company's customer journey?
+**50 discovered → 38 retained**
 
-Examples:
-- Support
-- Marketing
-- Product discovery
-- Ordering
-- Notifications
+Final prospect pool:
 
-### Customer Journey
+- D2C — 15
+- BFSI — 9
+- Real Estate — 7
+- Healthcare — 7
 
-How does a customer move through the business?
+## 3. Representative Research Sample
 
-Example:
+Rather than immediately enriching all 38 companies, a representative sample of **3 companies per vertical** was selected.
 
-Acquisition
-→ Inquiry
-→ Conversion
-→ Payment
-→ Post-purchase engagement
+**4 verticals × 3 companies = 12 deeply researched companies**
 
-## Step 3 — Evidence vs Hypothesis
+This was done to validate the research methodology before scaling.
 
-The system separates:
+## 4. Vertical-Specific Research
 
-**Observed**
-What can be verified publicly.
+Research signals were derived from Cheerio's documented case studies rather than applying the same signal to every industry.
 
-**Not found**
-What could not be verified publicly.
+### D2C
 
-**Hypothesis**
-A potential workflow opportunity that requires validation.
+**Signals**
+- WhatsApp Channel Usage
+- Customer Journey
 
-This prevents public-data research from being treated as fact about a company's internal systems.
+**Focus**
+Product discovery → conversational engagement → commerce
 
-## Current Principle
+### BFSI
 
-Do not use technology adoption as a proxy for GTM fit.
+**Signal**
+- BFSI Customer Engagement
 
-For example:
+**Focus**
+Customer lifecycle → communication → follow-up → retention
 
-WhatsApp = Yes
+### Real Estate
 
-does not automatically mean:
+**Signal**
+- Real Estate Customer Engagement
 
-Cheerio opportunity = High
+**Focus**
+Lead/inquiry → communication → follow-up → booking → post-sale
 
-The business workflow and potential friction must be understood first.
+### Healthcare
+
+**Signal**
+- Healthcare Engagement & Retention Workflow
+
+**Focus**
+Inquiry → service/order → communication → follow-up → retention
+
+## 5. Evidence Framework
+
+Each AI research output distinguishes between:
+
+**Observed**  
+Supported by public evidence.
+
+**Not Found**  
+Could not be verified publicly.
+
+**Potential Gap**  
+A hypothesis based on observable workflow characteristics.
+
+The system does not treat a missing public feature as proof that the company does not have it internally.
+
+## 6. Current Architecture
+
+Clay Company Discovery  
+↓  
+Data Validation  
+↓  
+Vertical-Specific AI Research  
+↓  
+Customer Journey Mapping  
+↓  
+Existing Capability Analysis  
+↓  
+Workflow Gap Hypothesis  
+↓  
+ICP + Opportunity Signals  
+↓  
+Scoring / Prioritization
