@@ -29,7 +29,7 @@ Final prospect pool:
 
 - D2C — 15
 - BFSI — 9
-- Real Estate — 7
+- Real Estate — 10
 - Healthcare — 7
 
 ## 3. Representative Research Sample
