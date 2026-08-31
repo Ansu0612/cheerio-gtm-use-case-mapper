@@ -1,51 +1,136 @@
-# Cheerio AI — GTM Use-Case Map
-
-## 1. Lead → Conversion
-
-Trigger:
-New lead, inquiry, or prospect enters the funnel.
-
-Cheerio opportunity:
-Lead qualification, automated follow-up, nurturing, and conversion workflows.
-
-Typical industries:
-BFSI, Real Estate, Healthcare, D2C
 
 ---
 
-## 2. Conversation → Commerce
+# 3. `use-case map.md`
 
-Trigger:
-Customer shows product/service interest.
+```markdown
+# Cheerio GTM Use-Case Map
 
-Cheerio opportunity:
-Conversational product discovery, catalog, recommendations, and payment.
+The use-case map connects industry-specific customer journeys to potential Cheerio workflow opportunities.
 
-Typical industries:
-D2C, E-commerce, Retail, Healthcare
+The goal is not to assume that every company needs the same solution.
 
 ---
 
-## 3. Payment → Follow-up
+## D2C
 
-Trigger:
-Payment, installment, invoice, or collection is due.
+### Core Journey
 
-Cheerio opportunity:
-Automated reminders, payment links, and follow-up workflows.
+**Product discovery → conversational commerce → purchase → repeat engagement**
 
-Typical industries:
-BFSI, Real Estate, Healthcare
+### Potential Opportunities
+
+- Conversational product discovery
+- Guided product recommendations
+- Cart recovery
+- Order-status communication
+- Returns / refund coordination
+- Post-purchase support
+- Reorder / repeat engagement
+
+### Typical Business Outcomes
+
+- Purchase conversion
+- Cart recovery rate
+- Support resolution time
+- Repeat purchase rate
+- Customer engagement
 
 ---
 
-## 4. Engagement → Retention
+## BFSI
 
-Trigger:
-Existing customer becomes inactive or reaches a retention opportunity.
+### Core Journey
 
-Cheerio opportunity:
-Personalized messaging, campaigns, reminders, and re-engagement.
+**Customer lifecycle → communication → follow-up → retention**
 
-Typical industries:
-D2C, BFSI, Healthcare, Real Estate
+### Potential Opportunities
+
+- Investor follow-up
+- Stalled conversation re-engagement
+- Investment lifecycle reminders
+- SIP follow-up
+- Rebalance action follow-up
+- Subscription renewal follow-up
+- Application-status communication
+- Document follow-up
+
+### Typical Business Outcomes
+
+- Investor response rate
+- Re-engagement rate
+- SIP completion
+- Renewal conversion
+- Application-to-funding conversion
+- Time-to-disbursement
+
+---
+
+## Real Estate
+
+### Core Journey
+
+**Lead/inquiry → communication → follow-up → booking → post-sale**
+
+### Potential Opportunities
+
+- Lead qualification
+- Inquiry follow-up
+- Site-visit coordination
+- Sales handoff
+- Booking follow-up
+- Booking/document communication
+- Post-sale support
+
+### Typical Business Outcomes
+
+- Lead-to-site-visit conversion
+- Lead-to-booking conversion
+- Follow-up response rate
+- Time-to-booking
+- Sales handoff completion
+
+---
+
+## Healthcare
+
+### Core Journey
+
+**Patient/customer inquiry → service/order → follow-up → retention**
+
+### Potential Opportunities
+
+- Appointment coordination
+- Appointment reminders
+- Post-appointment follow-up
+- Care-program activation
+- Patient engagement
+- Care-team handoff
+- Adherence follow-up
+- Retention / re-engagement
+
+### Typical Business Outcomes
+
+- Appointment completion
+- Follow-up completion
+- Enrollment activation
+- Missed appointment rate
+- Rescheduling rate
+- Patient retention
+
+---
+
+## Cross-Industry Pattern
+
+Although the use cases differ by industry, the recurring GTM pattern is:
+
+```text
+Complex Customer Journey
+        +
+High Communication Requirements
+        +
+Multiple Touchpoints
+        +
+Critical Business Event
+        ↓
+Potential Workflow Orchestration Opportunity
